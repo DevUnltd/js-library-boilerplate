@@ -1,5 +1,5 @@
 {
-  "name": "js-library-boilerplate",
+  "name": "@hodgef/js-library-boilerplate",
   "version": "1.0.0",
   "main": "build/index.js",
   "scripts": {
