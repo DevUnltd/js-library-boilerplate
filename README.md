@@ -56,3 +56,11 @@ import 'my-library/build/index.css' // If you import a css file in your library
 let MyLibrary from window.MyLibrary.default;
 ...
 ```
+
+### ✅ Libraries built with this boilerplate
+- [simple-keyboard](https://github.com/hodgef/simple-keyboard)
+- [react-simple-keyboard](https://github.com/hodgef/react-simple-keyboard)
+- [simple-keyboard-layouts](https://github.com/hodgef/simple-keyboard-layouts)
+- [swipe-keyboard](https://github.com/hodgef/swipe-keyboard)
+- [simple-keyboard-autocorrect](https://github.com/hodgef/simple-keyboard-autocorrect)
+- [simple-keyboard-key-navigation](https://github.com/hodgef/simple-keyboard-key-navigation)
