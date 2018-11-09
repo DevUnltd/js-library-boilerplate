@@ -54,4 +54,5 @@ import 'my-library/build/index.css' // If you import a css file in your library
 <script src="build/index.js"></script>
 
 let MyLibrary from window.MyLibrary.default;
+...
 ```
