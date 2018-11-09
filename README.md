@@ -13,6 +13,7 @@
 - Webpack 4
 - Babel 7
 - Hot Reloading (`npm start`)
+- CSS Autoprefixer
 - UMD exports, so your library works everywhere.
 - Based from [CRA v2.1.1](https://github.com/facebook/create-react-app/releases/tag/v2.1.1) (For Vanilla JS libs or React libs)
 - Jest unit testing
@@ -20,7 +21,6 @@
 - Customizable file headers for your build [(Example 1)](https://github.com/hodgef/js-library-boilerplate/blob/master/build/index.js) [(Example2)](https://github.com/hodgef/js-library-boilerplate/blob/master/build/index.css)
 - Configurable `postinstall` message [(Example)](https://github.com/hodgef/js-library-boilerplate/blob/master/bin/postinstall)
 - Weekly [dependabot](https://dependabot.com) dependency updates
-
 
 ## 📦 Getting Started
 
