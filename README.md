@@ -12,7 +12,8 @@
 
 - Webpack 4
 - Babel 7
-- Hot Reloading
+- Hot Reloading (`npm start`)
+- UMD exports, so your library works everywhere.
 - Based from [CRA v2.1.1](https://github.com/facebook/create-react-app/releases/tag/v2.1.1) (For Vanilla JS libs or React libs)
 - Jest unit testing
 - `npm run demo` To build a ready-for-deployment demo [(Example)](https://github.com/hodgef/js-library-boilerplate/tree/master/demo)
@@ -34,3 +35,12 @@ npm install
 1. Edit `LICENSE` file
 2. Edit `package.json` information (These will be used to generate the headers for your built files)
 3. Edit `./bin/postinstall` (If you would like to display a message on package install)
+
+## 🚀 Deployment
+1. `npm publish`
+2. Your users can include your library as usual
+```
+import MyLibrary from 'my-library';
+import 'my-library/build/index.css' // If you import a css file in your library
+...
+```
