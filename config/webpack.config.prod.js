@@ -144,7 +144,7 @@ module.exports = {
     chunkFilename: 'index.[chunkhash:8].chunk.js',
     // We inferred the "public path" (such as / or /my-project) from homepage.
     publicPath: publicPath,
-    library: "SimpleKeyboard",
+    library: "MyLibrary",
     libraryTarget: 'umd',
     umdNamedDefine: true,
     // Point sourcemap entries to original disk location (format as URL on Windows)
