@@ -53,7 +53,7 @@ import 'my-library/build/index.css' // If you import a css file in your library
 <link href="build/index.css" rel="stylesheet">
 <script src="build/index.js"></script>
 
-let MyLibrary from window.MyLibrary.default;
+let MyLibrary = window.MyLibrary.default;
 ...
 ```
 
