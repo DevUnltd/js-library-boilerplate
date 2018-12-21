@@ -64,3 +64,4 @@ let MyLibrary = window.MyLibrary.default;
 - [swipe-keyboard](https://github.com/hodgef/swipe-keyboard)
 - [simple-keyboard-autocorrect](https://github.com/hodgef/simple-keyboard-autocorrect)
 - [simple-keyboard-key-navigation](https://github.com/hodgef/simple-keyboard-key-navigation)
+- [hovercard](https://github.com/AnandChowdhary/hovercard)
