@@ -58,6 +58,9 @@ let MyLibrary = window.MyLibrary.default;
 ```
 
 ### ✅ Libraries built with this boilerplate
+
+> Made a library using this starter kit? Share it here by submitting a pull request!
+
 - [simple-keyboard](https://github.com/hodgef/simple-keyboard)
 - [react-simple-keyboard](https://github.com/hodgef/react-simple-keyboard)
 - [simple-keyboard-layouts](https://github.com/hodgef/simple-keyboard-layouts)
