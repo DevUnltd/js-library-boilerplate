@@ -1,6 +1,6 @@
 {
   "name": "@hodgef/js-library-boilerplate",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "main": "build/index.js",
   "scripts": {
     "start": "node scripts/start.js",
