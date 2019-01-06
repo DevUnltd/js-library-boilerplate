@@ -78,7 +78,13 @@
     "workbox-webpack-plugin": "3.6.3"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": "react-app",
+    "settings": {
+      "react": {
+        "pragma": "React",
+        "version": "detect"
+      }
+    }
   },
   "browserslist": [
     ">0.2%",
