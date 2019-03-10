@@ -76,7 +76,7 @@ checkBrowsers(paths.appPath, isInteractive)
       return;
     }
     const args = process.argv;
-    const testMode = process.argv[2] === "--testMode";
+    const testMode = args[2] === "--testMode";
     const protocol = process.env.HTTPS === 'true' ? 'https' : 'http';
     const appName = require(paths.appPackageJson).name;
     const urls = prepareUrls(protocol, HOST, port);
