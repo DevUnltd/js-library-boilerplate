@@ -1,6 +1,6 @@
 {
   "name": "@hodgef/js-library-boilerplate",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "build/index.js",
   "scripts": {
     "start": "node scripts/start.js",
@@ -65,7 +65,7 @@
     "postcss-safe-parser": "4.0.1",
     "react": "^16.8.4",
     "react-app-polyfill": "^0.2.2",
-    "react-dev-utils": "^7.0.3",
+    "react-dev-utils": "^7.0.5",
     "react-dom": "^16.8.4",
     "resolve": "1.10.0",
     "sass-loader": "7.1.0",
