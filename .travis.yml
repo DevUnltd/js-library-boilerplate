@@ -4,9 +4,6 @@ node_js:
 install:
   - npm install
 script:
-# Testing script start
-- npm run start
-- npm run test
+- npm run start -- --testMode
 - npm run demo
-# Killing node process at the end of tests
-- pkill node
+- npm run test
