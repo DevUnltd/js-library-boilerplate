@@ -106,7 +106,7 @@ checkBrowsers(paths.appPath, isInteractive)
        * Handle testMode
        */
       if(testMode){
-        compiler.plugin('done', (stats) => {
+        compiler.hooks.done.tap('done', (stats) => {
           stats = stats.toJson();
       
           if (stats.errors && stats.errors.length > 0) {
