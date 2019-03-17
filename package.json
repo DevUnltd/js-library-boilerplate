@@ -65,7 +65,7 @@
     "postcss-safe-parser": "4.0.1",
     "react": "^16.8.4",
     "react-app-polyfill": "^0.2.2",
-    "react-dev-utils": "^7.0.5",
+    "react-dev-utils": "^8.0.0",
     "react-dom": "^16.8.4",
     "resolve": "1.10.0",
     "sass-loader": "7.1.0",
