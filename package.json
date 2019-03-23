@@ -40,7 +40,7 @@
     "chalk": "2.4.2",
     "css-loader": "2.1.1",
     "dotenv": "7.0.0",
-    "dotenv-expand": "5.0.0",
+    "dotenv-expand": "5.1.0",
     "eslint": "5.15.2",
     "eslint-config-react-app": "^3.0.8",
     "eslint-loader": "2.1.2",
