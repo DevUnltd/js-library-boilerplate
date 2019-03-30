@@ -66,7 +66,7 @@
     "react": "^16.8.5",
     "react-app-polyfill": "^0.2.2",
     "react-dev-utils": "^8.0.0",
-    "react-dom": "^16.8.5",
+    "react-dom": "^16.8.6",
     "resolve": "1.10.0",
     "sass-loader": "7.1.0",
     "style-loader": "0.23.1",
