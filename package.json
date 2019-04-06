@@ -75,7 +75,7 @@
     "webpack": "4.29.6",
     "webpack-dev-server": "3.2.1",
     "webpack-manifest-plugin": "2.0.4",
-    "workbox-webpack-plugin": "4.1.1"
+    "workbox-webpack-plugin": "4.2.0"
   },
   "eslintConfig": {
     "extends": "react-app",
