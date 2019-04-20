@@ -68,3 +68,6 @@ let MyLibrary = window.MyLibrary.default;
 - [simple-keyboard-autocorrect](https://github.com/hodgef/simple-keyboard-autocorrect)
 - [simple-keyboard-key-navigation](https://github.com/hodgef/simple-keyboard-key-navigation)
 - [hovercard](https://github.com/AnandChowdhary/hovercard)
+- [perfect-immutable](https://github.com/Lukasz-pluszczewski/perfect-immutable)
+- [redux-better-promise](https://github.com/Lukasz-pluszczewski/redux-better-promise)
+- [redux-breeze](https://github.com/Lukasz-pluszczewski/reduxBreeze)
