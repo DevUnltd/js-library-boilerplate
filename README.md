@@ -59,15 +59,12 @@ let MyLibrary = window.MyLibrary.default;
 
 ### ✅ Libraries built with this boilerplate
 
-> Made a library using this starter kit? Share it here by submitting a pull request!
+> Made a library using this starter kit? Share it here by [submitting a pull request](https://github.com/hodgef/js-library-boilerplate/pulls)!
 
-- [simple-keyboard](https://github.com/hodgef/simple-keyboard)
-- [react-simple-keyboard](https://github.com/hodgef/react-simple-keyboard)
-- [simple-keyboard-layouts](https://github.com/hodgef/simple-keyboard-layouts)
-- [swipe-keyboard](https://github.com/hodgef/swipe-keyboard)
-- [simple-keyboard-autocorrect](https://github.com/hodgef/simple-keyboard-autocorrect)
-- [simple-keyboard-key-navigation](https://github.com/hodgef/simple-keyboard-key-navigation)
-- [hovercard](https://github.com/AnandChowdhary/hovercard)
-- [perfect-immutable](https://github.com/Lukasz-pluszczewski/perfect-immutable)
-- [redux-better-promise](https://github.com/Lukasz-pluszczewski/redux-better-promise)
-- [redux-breeze](https://github.com/Lukasz-pluszczewski/reduxBreeze)
+- [hovercard](https://github.com/AnandChowdhary/hovercard) - Wikipedia summary cards for the web
+- [perfect-immutable](https://github.com/Lukasz-pluszczewski/perfect-immutable) - Library to provide immutable methods
+- [react-simple-keyboard](https://github.com/hodgef/react-simple-keyboard) - React Virtual Keyboard
+- [redux-better-promise](https://github.com/Lukasz-pluszczewski/redux-better-promise) - Simple and powerful redux middleware
+- [redux-breeze](https://github.com/Lukasz-pluszczewski/reduxBreeze) - Powerful redux wrapper
+- [simple-keyboard](https://github.com/hodgef/simple-keyboard) - Javascript Virtual Keyboard
+- [simple-keyboard-layouts](https://github.com/hodgef/simple-keyboard-layouts) - Layout kit for simple-keyboard
