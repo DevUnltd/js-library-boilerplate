@@ -1,5 +1,5 @@
  <div align="center">
- <img align="center" width="180" src="https://franciscohodge.com/project-pages/js-library-boilerplate/images/JSLibraryBoilerplate.png" />
+ <img align="center" width="180" src="https://franciscohodge.com/project-pages/js-library-boilerplate/images/JSLB2.png" />
   <h2>Javascript Library Boilerplate</h2>
   <blockquote>Library Starter Kit for your Javascript projects</blockquote>
   <a href="https://travis-ci.org/hodgef/js-library-boilerplate"><img src="https://travis-ci.org/hodgef/js-library-boilerplate.svg?branch=master" /></a> <img src="https://img.shields.io/david/hodgef/js-library-boilerplate.svg" /> <a href="https://david-dm.org/hodgef/js-library-boilerplate?type=dev"><img src="https://img.shields.io/david/dev/hodgef/js-library-boilerplate.svg" /></a> <img src="https://api.dependabot.com/badges/status?host=github&repo=hodgef/js-library-boilerplate" />
