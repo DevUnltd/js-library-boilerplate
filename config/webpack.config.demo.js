@@ -150,7 +150,7 @@ module.exports = function(webpackEnv) {
       : isEnvDevelopment && 'cheap-module-source-map',
     // These are the "entry points" to our application.
     // This means they will be the "root" imports that are included in JS bundle.
-    entry: isEnvProduction ? [paths.appLibIndexJs] : [
+    entry: isEnvProduction ? [paths.appDemoIndexJs] : [
       // Include an alternative client for WebpackDevServer. A client's job is to
       // connect to WebpackDevServer by a socket and get notified about changes.
       // When you save a file, the client will either apply hot updates (in case
@@ -188,9 +188,6 @@ module.exports = function(webpackEnv) {
       // We inferred the "public path" (such as / or /my-project) from homepage.
       // We use "/" in development.
       publicPath: publicPath,
-      library: "MyLibrary",
-      libraryTarget: 'umd',
-      umdNamedDefine: true,
       // Point sourcemap entries to original disk location (format as URL on Windows)
       devtoolModuleFilenameTemplate: isEnvProduction
         ? info =>
@@ -251,10 +248,6 @@ module.exports = function(webpackEnv) {
           cache: true,
           sourceMap: shouldUseSourceMap,
         }),
-        new webpack.BannerPlugin({ 
-          banner: banner, 
-          entryOnly: true 
-        }),
         new OptimizeCSSAssetsPlugin({
           cssProcessorOptions: {
             parser: safePostCssParser,
@@ -275,7 +268,8 @@ module.exports = function(webpackEnv) {
       // https://twitter.com/wSokra/status/969633336732905474
       // https://medium.com/webpack/webpack-4-code-splitting-chunk-graph-and-the-splitchunks-optimization-be739a861366
       splitChunks: {
-      //chunks: 'all',
+      /*chunks: 'all',
+      name: false,*/
       cacheGroups: {
         default: false,
       }
@@ -344,7 +338,7 @@ module.exports = function(webpackEnv) {
               loader: require.resolve('eslint-loader'),
             },
           ],
-        include: paths.appSrcLib,
+        include: paths.appSrcDemo,
         },
         {
           // "oneOf" will traverse all following loaders until one will
@@ -366,7 +360,7 @@ module.exports = function(webpackEnv) {
             // The preset includes JSX, Flow, TypeScript, and some ESnext features.
             {
               test: /\.(js|mjs|jsx|ts|tsx)$/,
-              include: paths.appSrcLib,
+            include: paths.appSrcDemo,
               loader: require.resolve('babel-loader'),
               options: {
                 customize: require.resolve(
@@ -507,7 +501,7 @@ module.exports = function(webpackEnv) {
     },
     plugins: [
       // Generates an `index.html` file with the <script> injected.
-      /*new HtmlWebpackPlugin(
+      new HtmlWebpackPlugin(
         Object.assign(
           {},
           {
@@ -531,7 +525,7 @@ module.exports = function(webpackEnv) {
               }
             : undefined
         )
-      ),*/
+      ),
       // Inlines the webpack runtime script. This script is too small to warrant
       // a network request.
       isEnvProduction &&
