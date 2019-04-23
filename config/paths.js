@@ -81,6 +81,7 @@ module.exports = {
   appSrcLib: resolveApp('src/lib'),
   appSrcDemo: resolveApp('src/demo'),
   appTsConfig: resolveApp('tsconfig.json'),
+  appJsConfig: resolveApp('jsconfig.json'),
   yarnLockFile: resolveApp('yarn.lock'),
   testsSetup: resolveModule(resolveApp, 'src/setupTests'),
   proxySetup: resolveApp('src/setupProxy.js'),
