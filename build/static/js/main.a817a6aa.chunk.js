@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[0],[function(n,o,c){n.exports=c(3)},function(n,o,c){},function(n,o,c){},function(n,o,c){"use strict";c.r(o);c(1),c(2);var t=function n(){!function(n,o){if(!(n instanceof o))throw new TypeError("Cannot call a class as a function")}(this,n),console.log("Lib constructor called")};new function n(){!function(n,o){if(!(n instanceof o))throw new TypeError("Cannot call a class as a function")}(this,n);var o=new t;console.log("Demo loaded!",o)}}],[[0,1]]]);
-//# sourceMappingURL=main.a817a6aa.chunk.js.map
