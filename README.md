@@ -33,7 +33,7 @@ npm install
 > Before shipping, make sure to:
 1. Edit `LICENSE` file
 2. Edit `package.json` information (These will be used to generate the headers for your built files)
-3. Edit `library: "MyLibrary"` with your library's export name in `./config/webpack.config.prod.js`
+3. Edit `library: "MyLibrary"` with your library's export name in `./config/webpack.config.js`
 4. Edit `./bin/postinstall` (If you would like to display a message on package install)
 
 ## 🚀 Deployment
