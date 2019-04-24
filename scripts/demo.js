@@ -19,7 +19,7 @@ const path = require('path');
 const chalk = require('react-dev-utils/chalk');
 const fs = require('fs-extra');
 const webpack = require('webpack');
-const configFactory = require('../config/webpack.config');
+const configFactory = require('../config/webpack.config.demo');
 const paths = require('../config/paths');
 const checkRequiredFiles = require('react-dev-utils/checkRequiredFiles');
 const formatWebpackMessages = require('react-dev-utils/formatWebpackMessages');
@@ -39,7 +39,7 @@ const WARN_AFTER_CHUNK_GZIP_SIZE = 1024 * 1024;
 const isInteractive = process.stdout.isTTY;
 
 // Warn and crash if required files are missing
-if (!checkRequiredFiles([paths.appHtml, paths.appIndexJs])) {
+if (!checkRequiredFiles([paths.appHtml, paths.appDemoIndexJs])) {
   process.exit(1);
 }
 
@@ -53,14 +53,14 @@ checkBrowsers(paths.appPath, isInteractive)
   .then(() => {
     // First, read the current file sizes in build directory.
     // This lets us display how much they changed later.
-    return measureFileSizesBeforeBuild(paths.appBuild);
+    return measureFileSizesBeforeBuild(paths.appDemo);
   })
   .then(previousFileSizes => {
     // Remove all content but keep the directory so that
     // if you're in it, you don't end up in Trash
-    fs.emptyDirSync(paths.appBuild);
+    fs.emptyDirSync(paths.appDemo);
     // Merge with the public folder
-    //copyPublicFolder();
+    copyPublicFolder();
     // Start the webpack build
     return build(previousFileSizes);
   })
@@ -87,7 +87,7 @@ checkBrowsers(paths.appPath, isInteractive)
       printFileSizesAfterBuild(
         stats,
         previousFileSizes,
-        paths.appBuild,
+        paths.appDemo,
         WARN_AFTER_BUNDLE_GZIP_SIZE,
         WARN_AFTER_CHUNK_GZIP_SIZE
       );
@@ -96,7 +96,7 @@ checkBrowsers(paths.appPath, isInteractive)
       const appPackage = require(paths.appPackageJson);
       const publicUrl = paths.publicUrl;
       const publicPath = config.output.publicPath;
-      const buildFolder = path.relative(process.cwd(), paths.appBuild);
+      const buildFolder = path.relative(process.cwd(), paths.appDemo);
       printHostingInstructions(
         appPackage,
         publicUrl,
@@ -184,7 +184,7 @@ function build(previousFileSizes) {
 }
 
 function copyPublicFolder() {
-  fs.copySync(paths.appPublic, paths.appBuild, {
+  fs.copySync(paths.appPublic, paths.appDemo, {
     dereference: true,
     filter: file => file !== paths.appHtml,
   });
