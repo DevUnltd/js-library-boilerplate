@@ -13,6 +13,7 @@
 - Babel 7
 - Hot Reloading (`npm start`)
 - CSS Autoprefixer
+- SASS/SCSS support
 - UMD exports, so your library works everywhere.
 - Based on [CRA v3.0.0](https://github.com/facebook/create-react-app/releases/tag/v3.0.0) (For Vanilla JS libs or React libs)
 - Jest unit testing
