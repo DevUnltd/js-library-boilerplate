@@ -355,6 +355,13 @@ module.exports = function(webpackEnv) {
                     require.resolve('babel-preset-react-app/dependencies'),
                     { helpers: true },
                   ],
+                  "@babel/preset-env",
+                  "@babel/preset-react"
+                ],
+                plugins: [
+                  [
+                    "@babel/plugin-proposal-class-properties"
+                  ]
                 ],
                 cacheDirectory: true,
                 cacheCompression: isEnvProduction,
@@ -459,7 +466,7 @@ module.exports = function(webpackEnv) {
           {},
           {
             inject: true,
-            template: paths.appHtml,
+            template: paths.appHtml
           },
           isEnvProduction
             ? {
