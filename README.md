@@ -20,7 +20,7 @@
 - `npm run demo` To build a ready-for-deployment demo [(Example)](https://github.com/hodgef/js-library-boilerplate/tree/master/demo)
 - Customizable file headers for your build [(Example 1)](https://github.com/hodgef/js-library-boilerplate/blob/master/build/index.js) [(Example2)](https://github.com/hodgef/js-library-boilerplate/blob/master/build/index.css)
 - Configurable `postinstall` message [(Example)](https://github.com/hodgef/js-library-boilerplate/blob/master/bin/postinstall)
-- Weekly [dependabot](https://dependabot.com) dependency updates
+- Daily [dependabot](https://dependabot.com) dependency updates
 
 ## 📦 Getting Started
 
