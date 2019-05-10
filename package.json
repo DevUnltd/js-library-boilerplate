@@ -1,6 +1,6 @@
 {
   "name": "@hodgef/js-library-boilerplate",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "main": "build/index.js",
   "scripts": {
     "start": "node scripts/start.js",
@@ -29,6 +29,7 @@
     "@babel/plugin-proposal-class-properties": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
     "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.4.4",
     "@svgr/webpack": "4.2.0",
     "@typescript-eslint/eslint-plugin": "1.7.0",
     "@typescript-eslint/parser": "1.7.0",
