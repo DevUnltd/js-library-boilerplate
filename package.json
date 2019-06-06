@@ -1,6 +1,6 @@
 {
   "name": "@hodgef/js-library-boilerplate",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "main": "build/index.js",
   "scripts": {
     "start": "node scripts/start.js",
@@ -64,7 +64,7 @@
     "pnp-webpack-plugin": "1.4.3",
     "postcss-flexbugs-fixes": "4.1.0",
     "postcss-loader": "3.0.0",
-    "postcss-normalize": "8.0.0",
+    "postcss-normalize": "7.0.0",
     "postcss-preset-env": "6.6.0",
     "postcss-safe-parser": "4.0.1",
     "react": "^16.8.6",
