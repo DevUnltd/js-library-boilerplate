@@ -4,7 +4,7 @@
   <blockquote>Library Starter Kit for your Javascript projects</blockquote>
   <a href="https://travis-ci.org/hodgef/js-library-boilerplate"><img src="https://travis-ci.org/hodgef/js-library-boilerplate.svg?branch=master" /></a> <img src="https://img.shields.io/david/hodgef/js-library-boilerplate.svg" /> <a href="https://david-dm.org/hodgef/js-library-boilerplate?type=dev"><img src="https://img.shields.io/david/dev/hodgef/js-library-boilerplate.svg" /></a> <img src="https://api.dependabot.com/badges/status?host=github&repo=hodgef/js-library-boilerplate" />
 
- #### This is meant as a robust library boilerplate. For a minimal alternative, check out [js-library-boilerplate-basic](https://github.com/hodgef/js-library-boilerplate-basic).
+ #### This is a more robust library boilerplate. For a minimal alternative, check out [js-library-boilerplate-basic](https://github.com/hodgef/js-library-boilerplate-basic).
 </div>
 
 
