@@ -6,4 +6,4 @@ install:
 script:
 - npm run start -- --testMode
 - npm run demo
-- npm run test
+- npm run coverage

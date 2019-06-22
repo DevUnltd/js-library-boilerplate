@@ -1,6 +1,6 @@
 {
   "name": "@hodgef/js-library-boilerplate",
-  "version": "2.0.11",
+  "version": "2.0.12",
   "description": "Javascript Starter Kit for building libraries",
   "main": "build/index.js",
   "scripts": {
@@ -109,6 +109,7 @@
     "collectCoverageFrom": [
       "src/**/*.{js,jsx,ts,tsx}",
       "!src/lib/index.js",
+      "!src/demo/index.js",
       "!src/utils/**",
       "!src/**/*.d.ts",
       "!**/tests/**"
