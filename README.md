@@ -70,5 +70,6 @@ let libraryInstance = new MyLibrary();
 - [react-simple-keyboard](https://github.com/hodgef/react-simple-keyboard) - React Virtual Keyboard
 - [redux-better-promise](https://github.com/Lukasz-pluszczewski/redux-better-promise) - Simple and powerful redux middleware
 - [redux-breeze](https://github.com/Lukasz-pluszczewski/reduxBreeze) - Powerful redux wrapper
+- [regex-colorizer](https://github.com/geongeorge/regex-colorizer) - Highlighter for Javascript regex syntax
 - [simple-keyboard](https://github.com/hodgef/simple-keyboard) - Javascript Virtual Keyboard
 - [simple-keyboard-layouts](https://github.com/hodgef/simple-keyboard-layouts) - Layout kit for simple-keyboard
