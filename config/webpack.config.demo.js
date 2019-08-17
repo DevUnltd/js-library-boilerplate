@@ -51,24 +51,6 @@ const cssModuleRegex = /\.module\.css$/;
 const sassRegex = /\.(scss|sass)$/;
 const sassModuleRegex = /\.module\.(scss|sass)$/;
 
-const {
-  version,
-  name,
-  license,
-  repository,
-  author,
-} = getPackageJson('version', 'name', 'license', 'repository', 'author');
-
-const banner = `
-  ${name} v${version}
-  ${repository.url}
-
-  Copyright (c) ${author.replace(/ *\<[^)]*\> */g, " ")}
-
-  This source code is licensed under the ${license} license found in the
-  LICENSE file in the root directory of this source tree.
-  `;
-
 // This is the production and development configuration.
 // It is focused on developer experience, fast rebuilds, and a minimal bundle.
 module.exports = function(webpackEnv) {
@@ -412,6 +394,8 @@ module.exports = function(webpackEnv) {
                     require.resolve('babel-preset-react-app/dependencies'),
                     { helpers: true },
                   ],
+                  "@babel/preset-env",
+                  "@babel/preset-react"
                 ],
                 plugins: [
                   [
