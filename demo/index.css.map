@@ -1,1 +1,1 @@
-{"version":3,"sources":["X:/Dev/js-library-boilerplate/src/lib/css/App.css","index.css"],"names":[],"mappings":"AAAA,KACE,UAAA,CCID","file":"index.css","sourcesContent":["body {\r\n  color: black;\r\n}","body {\r\n  color: black;\r\n}\nbody {\r\n  color: black;\r\n}\n"]}
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,KACE,UACF","file":"index.css","sourcesContent":["body {\r\n  color: black;\r\n}"]}

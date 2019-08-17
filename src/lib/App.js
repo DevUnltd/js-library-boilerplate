@@ -1,8 +1,16 @@
 import './css/App.css';
 
 class App {
+  myVar = true;
+
   constructor(){
-    console.log("Lib constructor called");
+    const { myArrowMethod, myVar } = this;
+    console.log("Lib constructor called", myVar);
+    myArrowMethod();
+  }
+
+  myArrowMethod = () => {
+    console.log("Arrow method fired");
   }
 }
 

@@ -16,7 +16,7 @@
 - CSS Autoprefixer
 - SASS/SCSS support
 - UMD exports, so your library works everywhere.
-- Based on [CRA v3.0.0](https://github.com/facebook/create-react-app/releases/tag/v3.0.0) (For Vanilla JS libs or React libs)
+- Based on [CRA v3.1.1](https://github.com/facebook/create-react-app/releases/tag/v3.1.1) (For Vanilla JS libs or React libs)
 - Jest unit testing
 - `npm run demo` To build a ready-for-deployment demo [(Example)](https://github.com/hodgef/js-library-boilerplate/tree/master/demo)
 - Customizable file headers for your build [(Example 1)](https://github.com/hodgef/js-library-boilerplate/blob/master/build/index.js) [(Example2)](https://github.com/hodgef/js-library-boilerplate/blob/master/build/index.css)
