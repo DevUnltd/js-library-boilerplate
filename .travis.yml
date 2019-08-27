@@ -1,9 +1,0 @@
-language: node_js
-node_js:
- - node
-install:
-  - npm install
-script:
-- npm run start -- --testMode
-- npm run demo
-- npm run coverage
