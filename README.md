@@ -2,7 +2,7 @@
  <img align="center" width="180" src="https://franciscohodge.com/project-pages/js-library-boilerplate/images/JSLB2.png" />
   <h2>Javascript Library Boilerplate</h2>
   <blockquote>Library Starter Kit for your Javascript projects</blockquote>
-  <a href="https://actions-badge.atrox.dev/hodgef/js-library-boilerplate/goto"><img alt="Build Status" src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Fhodgef%2Fjs-library-boilerplate%2Fbadge&style=flat" /></a> <img src="https://img.shields.io/david/hodgef/js-library-boilerplate.svg" /> <a href="https://david-dm.org/hodgef/js-library-boilerplate?type=dev"><img src="https://img.shields.io/david/dev/hodgef/js-library-boilerplate.svg" /></a> <img src="https://api.dependabot.com/badges/status?host=github&repo=hodgef/js-library-boilerplate" />
+  <a href="https://github.com/hodgef/js-library-boilerplate/actions"><img alt="Build Status" src="https://github.com/hodgef/js-library-boilerplate/workflows/Build/badge.svg?color=green" /></a> <a href="https://github.com/hodgef/js-library-boilerplate/actions"> <img alt="Publish Status" src="https://github.com/hodgef/js-library-boilerplate/workflows/Publish/badge.svg?color=green" /></a> <img src="https://img.shields.io/david/hodgef/js-library-boilerplate.svg" /> <a href="https://david-dm.org/hodgef/js-library-boilerplate?type=dev"><img src="https://img.shields.io/david/dev/hodgef/js-library-boilerplate.svg" /></a> <img src="https://api.dependabot.com/badges/status?host=github&repo=hodgef/js-library-boilerplate" />
 
 <strong>This is a more robust library boilerplate. For a minimal alternative, check out [js-library-boilerplate-basic](https://github.com/hodgef/js-library-boilerplate-basic).</strong>
 </div>
