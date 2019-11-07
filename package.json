@@ -1,6 +1,6 @@
 {
   "name": "@hodgef/js-library-boilerplate",
-  "version": "2.1.15",
+  "version": "2.1.16",
   "description": "Javascript Starter Kit for building libraries",
   "main": "build/index.js",
   "scripts": {
