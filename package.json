@@ -30,7 +30,7 @@
     "@babel/core": "7.11.5",
     "@svgr/webpack": "5.4.0",
     "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.0.1",
+    "@testing-library/react": "^11.0.2",
     "@testing-library/user-event": "^12.1.3",
     "@typescript-eslint/eslint-plugin": "^4.0.0",
     "@typescript-eslint/parser": "^3.10.1",
