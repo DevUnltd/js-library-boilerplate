@@ -74,7 +74,7 @@ const banner = `
   ${name} v${version}
   ${repository.url}
 
-  Copyright (c) ${author.replace(/ *\<[^)]*\> */g, " ")}
+  Copyright (c) ${author.replace(/ *<[^)]*> */g, " ")}
 
   This source code is licensed under the ${license} license found in the
   LICENSE file in the root directory of this source tree.
@@ -209,7 +209,7 @@ module.exports = function (webpackEnv) {
             // initialization, it doesn't blow up the WebpackDevServer client, and
             // changing JS code would still trigger a refresh.
           ]
-        : paths.appIndexJs,
+        : paths.appLibIndexJs,
     output: {
       // The build folder.
       path: isEnvProduction ? paths.appBuild : undefined,
