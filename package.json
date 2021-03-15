@@ -86,7 +86,7 @@
     "terser-webpack-plugin": "4.2.3",
     "ts-pnp": "1.2.0",
     "url-loader": "4.1.1",
-    "web-vitals": "^1.0.1",
+    "web-vitals": "^1.1.1",
     "webpack": "4.46.0",
     "webpack-dev-server": "3.11.2",
     "webpack-manifest-plugin": "3.1.0",
