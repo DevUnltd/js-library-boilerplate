@@ -43,7 +43,7 @@
     "bfj": "^7.0.2",
     "camelcase": "^6.1.0",
     "case-sensitive-paths-webpack-plugin": "2.4.0",
-    "css-loader": "5.2.4",
+    "css-loader": "5.2.5",
     "dotenv": "9.0.2",
     "dotenv-expand": "5.1.0",
     "eslint": "^7.26.0",
