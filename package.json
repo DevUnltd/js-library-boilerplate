@@ -71,7 +71,7 @@
     "postcss-loader": "3.0.0",
     "postcss-normalize": "9.0.0",
     "postcss-preset-env": "6.7.0",
-    "postcss-safe-parser": "5.0.2",
+    "postcss-safe-parser": "6.0.0",
     "prompts": "2.4.1",
     "react": "^17.0.1",
     "react-app-polyfill": "^2.0.0",
