@@ -90,7 +90,7 @@
     "webpack": "4.46.0",
     "webpack-dev-server": "3.11.2",
     "webpack-manifest-plugin": "4.0.2",
-    "workbox-webpack-plugin": "6.2.3"
+    "workbox-webpack-plugin": "6.2.4"
   },
   "eslintConfig": {
     "extends": [
