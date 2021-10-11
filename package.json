@@ -42,7 +42,7 @@
     "case-sensitive-paths-webpack-plugin": "2.3.0",
     "cra-template": "1.1.2",
     "css-loader": "4.3.0",
-    "dotenv": "8.2.0",
+    "dotenv": "10.0.0",
     "dotenv-expand": "5.1.0",
     "eslint": "^7.11.0",
     "eslint-config-react-app": "^6.0.0",
