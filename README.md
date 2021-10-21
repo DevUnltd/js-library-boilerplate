@@ -3,7 +3,7 @@
   <h2>Javascript Library Boilerplate</h2>
   <blockquote>Library Starter Kit for your Javascript projects</blockquote>
  
-  <a href="https://www.npmjs.com/package/@hodgef/js-library-boilerplate"><img src="https://badgen.net/npm/v/@hodgef/js-library-boilerplate?color=blue" alt="npm version"></a> <a href="https://github.com/hodgef/js-library-boilerplate"><img src="https://img.shields.io/github/last-commit/hodgef/js-library-boilerplate" alt="npm version"></a> <a href="https://github.com/hodgef/js-library-boilerplate/actions"><img alt="Build Status" src="https://github.com/hodgef/js-library-boilerplate/workflows/Build/badge.svg?color=green" /></a> <a href="https://github.com/hodgef/js-library-boilerplate/actions"> <img alt="Publish Status" src="https://github.com/hodgef/js-library-boilerplate/workflows/Publish/badge.svg?color=green" /></a>
+  <a href="https://www.npmjs.com/package/@hodgef/js-library-boilerplate"><img src="https://badgen.net/npm/v/@hodgef/js-library-boilerplate?color=blue" alt="npm version"></a> <a href="https://github.com/hodgef/js-library-boilerplate"><img src="https://img.shields.io/github/last-commit/hodgef/js-library-boilerplate" alt="latest commit"></a> <a href="https://github.com/hodgef/js-library-boilerplate/actions"><img alt="Build Status" src="https://github.com/hodgef/js-library-boilerplate/workflows/Build/badge.svg?color=green" /></a> <a href="https://github.com/hodgef/js-library-boilerplate/actions"> <img alt="Publish Status" src="https://github.com/hodgef/js-library-boilerplate/workflows/Publish/badge.svg?color=green" /></a>
 
  <strong>This is a more robust library boilerplate. For a minimal alternative, check out [js-library-boilerplate-basic](https://github.com/hodgef/js-library-boilerplate-basic).</strong>
 
