@@ -271,6 +271,7 @@ module.exports = function (webpackEnv) {
       minimizer: [
         // This is only used in production mode
         new TerserPlugin({
+          extractComments: false,
           terserOptions: {
             parse: {
               // We want terser to parse ecma 8 code. However, we don't want it
@@ -305,7 +306,6 @@ module.exports = function (webpackEnv) {
             keep_fnames: isEnvProductionProfile,
             output: {
               ecma: 5,
-              comments: false,
               // Turned on because emoji and regex is not minified properly using default
               // https://github.com/facebook/create-react-app/issues/2488
               ascii_only: true,
