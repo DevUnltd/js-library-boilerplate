@@ -5,7 +5,7 @@
  
   <a href="https://www.npmjs.com/package/@hodgef/js-library-boilerplate"><img src="https://badgen.net/npm/v/@hodgef/js-library-boilerplate?color=blue" alt="npm version"></a> <a href="https://github.com/hodgef/js-library-boilerplate"><img src="https://img.shields.io/github/last-commit/hodgef/js-library-boilerplate" alt="latest commit"></a> <a href="https://github.com/hodgef/js-library-boilerplate/actions"><img alt="Build Status" src="https://github.com/hodgef/js-library-boilerplate/workflows/Build/badge.svg?color=green" /></a> <a href="https://github.com/hodgef/js-library-boilerplate/actions"> <img alt="Publish Status" src="https://github.com/hodgef/js-library-boilerplate/workflows/Publish/badge.svg?color=green" /></a>
 
- <strong>This is a more robust library boilerplate. For a minimal alternative, check out [js-library-boilerplate-basic](https://github.com/hodgef/js-library-boilerplate-basic).</strong>
+<strong>This is a more robust library boilerplate. For a minimal alternative, check out [js-library-boilerplate-basic](https://github.com/hodgef/js-library-boilerplate-basic).</strong>
 
 </div>
 
@@ -17,7 +17,7 @@
 - CSS Autoprefixer
 - SASS/SCSS support
 - UMD exports, so your library works everywhere.
-- Based on [CRA v4.0.3](https://github.com/facebook/create-react-app/releases/tag/v4.0.3) (For Vanilla JS libs or React libs)
+- Based on [CRA v5.0.0](https://github.com/facebook/create-react-app/releases/tag/v5.0.0) (For Vanilla JS libs or React libs)
 - Jest unit testing
 - `npm run demo` To build a ready-for-deployment demo [(Example)](https://github.com/hodgef/js-library-boilerplate/tree/master/demo)
 - Customizable file headers for your build [(Example 1)](https://github.com/hodgef/js-library-boilerplate/blob/master/build/index.js) [(Example2)](https://github.com/hodgef/js-library-boilerplate/blob/master/build/index.css)
