@@ -1,6 +1,6 @@
 {
   "name": "@hodgef/js-library-boilerplate",
-  "version": "2.7.0",
+  "version": "2.7.1",
   "description": "Javascript Starter Kit for building libraries",
   "main": "build/index.js",
   "scripts": {
@@ -150,12 +150,27 @@
   },
   "babel": {
     "presets": [
-      ["@babel/preset-env", { "loose": true }],
+      [
+        "@babel/preset-env",
+        {
+          "loose": true
+        }
+      ],
       "@babel/preset-react"
     ],
     "plugins": [
-      ["@babel/plugin-proposal-class-properties", { "loose": true }],
-      ["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+      [
+        "@babel/plugin-proposal-class-properties",
+        {
+          "loose": true
+        }
+      ],
+      [
+        "@babel/plugin-proposal-private-property-in-object",
+        {
+          "loose": true
+        }
+      ]
     ]
   }
 }
