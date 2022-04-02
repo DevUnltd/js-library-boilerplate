@@ -1,1 +1,1 @@
-{"version":3,"file":"index.css","mappings":";;;;;;;;;;GAAA,KACE,UACF","sources":["css/App.css"],"sourcesContent":["body {\r\n  color: black;\r\n}"],"names":[],"sourceRoot":""}
+{"version":3,"file":"index.css","mappings":";;;;;;;;;;GAAA,KACE,UACF","sources":["css/App.css"],"sourcesContent":["body {\n  color: black;\n}"],"names":[],"sourceRoot":""}
