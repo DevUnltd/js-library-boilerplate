@@ -55,7 +55,7 @@
     "jest": "^27.4.3",
     "jest-resolve": "^28.1.0",
     "jest-watch-typeahead": "^1.1.0",
-    "mini-css-extract-plugin": "^2.4.5",
+    "mini-css-extract-plugin": "^2.6.1",
     "postcss": "^8.4.14",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-loader": "^7.0.0",
