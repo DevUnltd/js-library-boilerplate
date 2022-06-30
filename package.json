@@ -52,7 +52,7 @@
     "fs-extra": "^10.1.0",
     "html-webpack-plugin": "^5.5.0",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "^27.4.3",
+    "jest": "^28.1.2",
     "jest-resolve": "^28.1.0",
     "jest-watch-typeahead": "^1.1.0",
     "mini-css-extract-plugin": "^2.6.1",
