@@ -27,7 +27,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.19.3",
+    "@babel/core": "^7.19.6",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.8",
     "@svgr/webpack": "^6.5.0",
     "@testing-library/jest-dom": "^5.16.5",
