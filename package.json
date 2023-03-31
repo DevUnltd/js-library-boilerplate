@@ -73,7 +73,7 @@
     "semver": "^7.3.8",
     "source-map-loader": "^4.0.1",
     "style-loader": "^3.3.2",
-    "tailwindcss": "^3.3.0",
+    "tailwindcss": "^3.3.1",
     "terser-webpack-plugin": "^5.3.7",
     "web-vitals": "^3.3.0",
     "webpack": "^5.77.0",
