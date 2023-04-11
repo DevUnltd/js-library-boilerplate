@@ -47,7 +47,7 @@
     "dotenv-expand": "^5.1.0",
     "eslint": "^8.38.0",
     "eslint-config-react-app": "^7.0.1",
-    "eslint-webpack-plugin": "^4.0.0",
+    "eslint-webpack-plugin": "^4.0.1",
     "file-loader": "^6.2.0",
     "fs-extra": "^11.1.1",
     "html-webpack-plugin": "^5.5.0",
