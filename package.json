@@ -43,8 +43,8 @@
     "case-sensitive-paths-webpack-plugin": "^2.4.0",
     "css-loader": "^6.7.3",
     "css-minimizer-webpack-plugin": "^5.0.0",
-    "dotenv": "^16.0.2",
-    "dotenv-expand": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "dotenv-expand": "^10.0.0",
     "eslint": "^8.38.0",
     "eslint-config-react-app": "^7.0.1",
     "eslint-webpack-plugin": "^4.0.1",
@@ -52,9 +52,10 @@
     "fs-extra": "^11.1.1",
     "html-webpack-plugin": "^5.5.1",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "^27.4.3",
+    "jest": "^29.5.0",
     "jest-resolve": "^29.5.0",
-    "jest-watch-typeahead": "^2.1.1",
+    "jest-watch-typeahead": "^2.2.2",
+    "jest-environment-jsdom": "^29.5.0",
     "mini-css-extract-plugin": "^2.7.5",
     "postcss": "^8.4.23",
     "postcss-flexbugs-fixes": "^5.0.2",
@@ -161,6 +162,12 @@
     "plugins": [
       [
         "@babel/plugin-proposal-class-properties",
+        {
+          "loose": true
+        }
+      ],
+      [
+        "@babel/plugin-proposal-private-methods",
         {
           "loose": true
         }
