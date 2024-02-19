@@ -44,7 +44,7 @@
     "css-loader": "^6.10.0",
     "css-minimizer-webpack-plugin": "^6.0.0",
     "dotenv": "^16.4.4",
-    "dotenv-expand": "^5.1.0",
+    "dotenv-expand": "^11.0.6",
     "eslint": "^8.56.0",
     "eslint-config-react-app": "^7.0.1",
     "eslint-webpack-plugin": "^4.0.1",
