@@ -30,7 +30,7 @@
     "@babel/core": "^7.24.5",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.13",
     "@svgr/webpack": "^8.0.1",
-    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/jest-dom": "^6.4.3",
     "@testing-library/react": "^15.0.6",
     "@testing-library/user-event": "^14.5.2",
     "babel-jest": "^29.7.0",
