@@ -74,7 +74,7 @@
     "source-map-loader": "^5.0.0",
     "style-loader": "^4.0.0",
     "tailwindcss": "^4.0.10",
-    "terser-webpack-plugin": "^5.3.12",
+    "terser-webpack-plugin": "^5.3.14",
     "web-vitals": "^4.2.4",
     "webpack": "^5.98.0",
     "webpack-dev-server": "^4.15.1",
