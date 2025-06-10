@@ -53,7 +53,7 @@
     "html-webpack-plugin": "^5.6.3",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.4.3",
-    "jest-resolve": "^29.7.0",
+    "jest-resolve": "^30.0.0",
     "jest-watch-typeahead": "^2.1.1",
     "mini-css-extract-plugin": "^2.9.2",
     "postcss": "^8.5.4",
