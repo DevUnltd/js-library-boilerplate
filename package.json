@@ -76,7 +76,7 @@
     "tailwindcss": "^4.1.13",
     "terser-webpack-plugin": "^5.3.14",
     "web-vitals": "^5.1.0",
-    "webpack": "^5.101.3",
+    "webpack": "^5.102.0",
     "webpack-dev-server": "^4.15.1",
     "webpack-manifest-plugin": "^5.0.1",
     "workbox-webpack-plugin": "^7.3.0"
