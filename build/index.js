@@ -1,6 +1,6 @@
 /*!
  * 
- *   @hodgef/js-library-boilerplate v2.7.565
+ *   @hodgef/js-library-boilerplate v2.7.566
  *   https://github.com/hodgef/js-library-boilerplate
  *
  *   Copyright (c) Francisco Hodge (https://github.com/hodgef)
