@@ -1,6 +1,6 @@
 /*!
  * 
- *   @hodgef/js-library-boilerplate v2.7.632
+ *   @hodgef/js-library-boilerplate v2.7.633
  *   https://github.com/hodgef/js-library-boilerplate
  *
  *   Copyright (c) Francisco Hodge (https://github.com/hodgef)
@@ -9,5 +9,5 @@
  *   LICENSE file in the root directory of this source tree.
  *
  */
-!function(e,o){"object"===typeof exports&&"object"===typeof module?module.exports=o():"function"===typeof define&&define.amd?define("MyLibrary",[],o):"object"===typeof exports?exports.MyLibrary=o():e.MyLibrary=o()}(this,(()=>(()=>{"use strict";var e={d:(o,t)=>{for(var r in t)e.o(t,r)&&!e.o(o,r)&&Object.defineProperty(o,r,{enumerable:!0,get:t[r]})},o:(e,o)=>Object.prototype.hasOwnProperty.call(e,o),r:e=>{"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})}},o={};e.r(o),e.d(o,{default:()=>t});const t=class{constructor(){this.myVar=!0,this.myArrowMethod=()=>{console.log("Arrow method fired")};const e=this.myArrowMethod,o=this.myVar;console.log("Lib constructor called",o),e()}};return o})()));
+!function(e,r){"object"===typeof exports&&"object"===typeof module?module.exports=r():"function"===typeof define&&define.amd?define("MyLibrary",[],r):"object"===typeof exports?exports.MyLibrary=r():e.MyLibrary=r()}(this,(()=>(()=>{"use strict";const e={d:(r,o)=>{if(Array.isArray(o))for(var t=0;t<o.length;){var n=o[t++],i=o[t++];e.o(r,n)?0===i&&t++:0===i?Object.defineProperty(r,n,{enumerable:!0,value:o[t++]}):Object.defineProperty(r,n,{enumerable:!0,get:i})}else for(var n in o)e.o(o,n)&&!e.o(r,n)&&Object.defineProperty(r,n,{enumerable:!0,get:o[n]})},o:(e,r)=>Object.prototype.hasOwnProperty.call(e,r),r:e=>{Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})}};let r={};e.r(r),e.d(r,{default:()=>o});const o=class{constructor(){this.myVar=!0,this.myArrowMethod=()=>{console.log("Arrow method fired")};const e=this.myArrowMethod,r=this.myVar;console.log("Lib constructor called",r),e()}};return r})()));
 //# sourceMappingURL=index.js.map
