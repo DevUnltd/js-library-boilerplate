@@ -38,7 +38,7 @@
     "babel-plugin-named-asset-import": "^0.3.8",
     "babel-preset-react-app": "^10.1.0",
     "bfj": "^9.1.4",
-    "browserslist": "^4.29.4",
+    "browserslist": "^4.29.5",
     "camelcase": "^10.0.0",
     "case-sensitive-paths-webpack-plugin": "^2.4.0",
     "css-loader": "^7.1.5",
